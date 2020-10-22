@@ -25,7 +25,6 @@ import (
 	_ "github.com/google/martian/priority"
 	_ "github.com/google/martian/stash"
 	_ "github.com/google/martian/status"
-	_ "github.com/google/martian/querystring"
 )
 
 // NewBackendFactory creates a proxy.BackendFactory with the martian request executor wrapping the injected one.
